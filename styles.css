@@ -146,6 +146,14 @@ body {
  
 }
 
+.testimonial-container {
+    padding: 50px;
+    border-radius: 50px;
+background: #FFFFF9;
+box-shadow:  16px 16px 33px #e3e3de,
+             -16px -16px 33px #ffffff;
+}
+
 .carousel-client {
     margin-bottom: 150px;
 }
@@ -185,7 +193,7 @@ body {
 
 
 .footer {
-    margin-top: 0;
+    margin: 0;
 }
 
 .footer-name {
@@ -197,6 +205,14 @@ body {
 .footer-address {
     margin-left: 35px;
 }
+
+ .footer-bg {
+    background-color: #313131;
+    height: 500px;
+
+    
+} 
+
 
 
 #myBtn {
@@ -222,4 +238,19 @@ body {
         top: 200px;
         left: 10px;
 }
+}
+
+@media screen and (max-width: 320px) {
+    .footer-menu {
+      text-align: center;
+}
+}
+
+@media screen and (max-width: 786px) {
+    .email_footer {
+     font-size: 14px;
+}
+    .footer-img{
+        width: 150px;
+    }
 }

@@ -78,9 +78,9 @@ body {
 .img img{
 
   
-    box-shadow: 17px 18px 0px 17px rgba(21,101,149,1);
-    -webkit-box-shadow: 17px 18px 0px 17px rgba(21,101,149,1);
-    -moz-box-shadow: 17px 18px 0px 17px rgba(21,101,149,1);
+    box-shadow: 33px 30px 2px 3px rgba(21,101,149,1);
+-webkit-box-shadow: 33px 30px 2px 3px rgba(21,101,149,1);
+-moz-box-shadow: 33px 30px 2px 3px rgba(21,101,149,1);
 }
 
 .processes_h1 span {
