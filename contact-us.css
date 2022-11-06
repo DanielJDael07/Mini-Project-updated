@@ -88,11 +88,50 @@ body {
 
 }
 
-@media screen and (max-width:320px){
+@media screen and (max-width:425px){
+    .hero-des {
+    left: 20px;
+    }
+}
+
+@media screen and (max-width:375px){
+    .hero-des {
+    top: 200px;
+    left: 20px;
+    }
+}
+
+   @media screen and (max-width:320px){
     iframe {
       width: 300px;
     }
+} 
+
+@media screen and (max-width:982px){
+    iframe {
+      width: 300px;
+    }
+} 
+
+
+@media screen and (max-width:764px){
+    .contact-form_bg {
+      height: 1100px;
+    }
 }
+
+@media screen and (max-width:764px){
+    .form-field {
+      height: 900px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .button-form {
+        padding: 10px 30px 10px 30px;
+    }
+}
+
 
 
 

@@ -45,12 +45,7 @@ body {
     left: 120px;
 }
 
-.hero-des h3{
-    color: #FFFFF9;
-    font-size: 40px;
-    font-family: 'Roboto', sans-serif;
-   
-}
+
 
 .hero-des_h1{
     color: #69BEF5;
@@ -60,6 +55,7 @@ body {
 }
 .services_h1 {
     color: #FFFFF9;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -81,17 +77,25 @@ body {
    
 }
 
+
+
 @media screen and (max-width: 425px) {
     .hero-des {
-        top: 200px;
-        left: 20px;
-    }   
+    top: 150px;
+    left: 20px;
 }
+ 
+    }   
+
 
 @media screen and (max-width:320px){
     .hero-des {
-        top: 90px;
-        left: 20px;
+        top: 100px;
+        left: 10px;
+
     }
 }
+
+
+
 
