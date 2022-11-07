@@ -1,12 +1,6 @@
-
-body {
-    padding: 0;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-  
+.navbar {
+    background-color: rgba(8, 6, 6, 0.5)
 }
-
-
 
 .nav-logo {
     margin-left: 10px;
@@ -16,83 +10,12 @@ body {
     margin-left: 100px;
 }
 
-.navbar {
+.navbar-services {
     background-color: #313131;
- 
 } 
 
 
-
-
-
-
-
-.header-services_bg {
-    width: 100%;
-    height: 400px;
-    background-color: #156595;
-    position: relative;
-}
-
-.header-services_h1 {
-   top: 200px;
-
-   position: relative;
-   
-}
-
-.header-services_h1 {
-    font-weight: 700;
-    font-size: 70px;
-}
-
-.header-services_h1_span {
-    color: #69BEF5;
-   
-}
-
-.main-services_h1{
-   color: #156595;
-   font-weight: 700;
-   font-size: 50px;
-}
-
-.main-services p{
-    font-size: 20px;
-}
-
-.main-services li {
-    font-size: 20px;
-}
-
-.appointment {
-    background-color: #156595;
-    height: 500px;
-    
-}
-
-
-
-@media screen and (max-width: 733px) {
-    .header-services_h1 {
-        top: 100px;
-
-        position: relative;
-        font-size: 35px;
-    }
-    .header-services_bg {
-        height: 200px;
-    }
-
-    .main-services_h1 {
-        font-size: 35px;
-    }
-
-  }
-
-
-
-  .footer {
+.footer {
     margin: 0;
 }
 
@@ -152,10 +75,14 @@ body {
 }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 764px) {
     .footer-menu {
       text-align: center;
-}
+
+    } 
+    .footer-bg {
+        height: 950px;
+    }
 }
 
 @media screen and (max-width: 786px) {
@@ -168,12 +95,3 @@ body {
 }
 
 
-@media screen and (max-width: 764px) {
-    .footer-menu {
-      text-align: center;
-
-    } 
-    .footer-bg {
-        height: 950px;
-    }
-}
