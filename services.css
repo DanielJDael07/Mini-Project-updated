@@ -189,3 +189,42 @@ p {
         width: 150px;
     }
 }
+
+/**--------------------------------CSS for Buttons--------------------------------------**/
+.btn-primary {
+    color: #ffffff;
+    background-color: #009FFF;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.btn-primary:hover{
+    background-color: #ffffff;
+    color: #313131;
+    border: 2px solid #009FFF;
+}
+.btn-primary a:hover{
+    color: #313131;
+    
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #009FFF;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+   
+  }
+
